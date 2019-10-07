@@ -8,8 +8,14 @@ public class PlayerMovementScript : MonoBehaviour {
 
     private Vector3 moveDirection;
 
+    public AudioSource WalkingSound;
+
     void Update()
     {
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W)) {
+            WalkingSound.mute = false;
+        }
+        else WalkingSound.mute = true;
         moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical")).normalized;
     }
 
