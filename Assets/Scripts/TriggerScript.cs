@@ -21,9 +21,9 @@ using UnityEngine.SceneManagement;
     //This is the trigger script itself. On trigger enter it can activate different things.
 public class TriggerScript : MonoBehaviour {
 
-    public SoundListClass[];
-
     public SoundListClass SoundList;
+
+    ////public SoundListClass[] =;
 
     private void OnTriggerEnter(Collider other) {
 

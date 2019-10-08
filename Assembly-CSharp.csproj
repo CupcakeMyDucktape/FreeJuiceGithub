@@ -70,7 +70,10 @@
     <Compile Include="Assets\Scripts\SoundsScripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\SoundsScripts\OnTriggerEnterScript.cs" />
     <Compile Include="Assets\Scripts\TriggerPig.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\TriggerScript.cs" />
+=======
+>>>>>>> master
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
