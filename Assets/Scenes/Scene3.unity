@@ -1322,8 +1322,9 @@ GameObject:
   - component: {fileID: 549963449}
   - component: {fileID: 549963448}
   - component: {fileID: 549963447}
+  - component: {fileID: 549963451}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: InteractiveCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1337,7 +1338,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 549963446}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 13, y: 13, z: 1}
@@ -1402,6 +1403,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549963451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549963446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54279de8ad4c2584db739f20e6524b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SoundList:
+    Size: 0
+    Audio: {fileID: 0}
+    MuteIt: 0
+    SceneSwitch: 0
 --- !u!1 &664139106
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,7 +1749,7 @@ AudioSource:
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128

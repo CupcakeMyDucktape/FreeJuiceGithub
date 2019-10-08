@@ -13,7 +13,8 @@ public class TriggerPig : MonoBehaviour
         if (other.tag == "Player") {
             Piggy.mute = true;
             DoorOpen.Play();
-            SceneManager.LoadScene("SampleScene", LoadSceneMode.Single);
+            int x = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(x + 1, LoadSceneMode.Single);
             
         }
     }
