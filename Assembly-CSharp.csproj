@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\LookScript.cs" />
      <Compile Include="Assets\Scripts\PlanetScript.cs" />
      <Compile Include="Assets\Scripts\PlayerGravityBody.cs" />
      <Compile Include="Assets\Scripts\PlayerMovementScript.cs" />
